@@ -1,5 +1,6 @@
 *{
     /* background-color: whitesmoke; */
+    font-family: Poppins,  Actor, Adamina;
 }
 #top{
     color: white;
@@ -17,7 +18,7 @@
     font-size: 20px;
 }
 #top> .top-1 > ul> li > button{
-    background-color: orange;
+    background-color: #FFAC12-+;
     color: black;
     border-radius: 1px;
 }
@@ -120,18 +121,17 @@ h5{
     border: solid;
 }
 #foot{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(40deg, rgba(0,0,0,1) 60%, rgba(55,41,4,1) 100%);
     color: white;
+    padding: 0;
+    margin: 0;
 }
 #foot > .foot-1 > h4{
     font-size: 40px;
 }
 #foot > .foot-1 > h4 >.reality{
     color:brown;
-}
-#foot> .foot-1{
-    /* float: left; */
-    
 }
 #foot > .foot-1 > .btn{
     height: auto;
@@ -140,6 +140,10 @@ h5{
 #foot > footer{
     display: flex;
     margin: 20px;
+}
+#foot > footer > .col-making{
+    width: 50%;
+    margin-left: 40% ;
 }
 #foot > .footer > .col-making{
     margin: 20px;
